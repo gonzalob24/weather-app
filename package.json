@@ -4,7 +4,8 @@
   "description": "Webserver for Weather App",
   "main": "index.js",
   "scripts": {
-    "start": "node src/weatherApp.js"
+    "start": "node src/weatherApp.js",
+    "dev": "nodemon src/weatherApp.js -e js,hbs,css"
   },
   "author": "Gonzalo",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
