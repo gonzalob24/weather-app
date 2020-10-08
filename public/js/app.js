@@ -20,7 +20,7 @@ const changeBackground = (currentTime) => {
         background.classList.add('background-GM');
     }
     else if (currentTime >= timeOfDay.Afternoon && currentTime < timeOfDay.Night) {
-        background.classList.add('background-GA');
+        background.classList.add('background-GM');
     }
     else {
         background.classList.add('background-GN');

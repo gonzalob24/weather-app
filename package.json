@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalob24/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonzalob24/weather-app/issues"
+  },
+  "homepage": "https://github.com/gonzalob24/weather-app#readme"
 }
