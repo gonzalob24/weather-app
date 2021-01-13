@@ -1,28 +1,28 @@
 {
-  "name": "webserver",
-  "version": "1.0.0",
-  "description": "Webserver for Weather App",
-  "main": "index.js",
-  "scripts": {
-    "start": "node src/weatherApp.js",
-    "dev": "nodemon src/weatherApp.js -e js,hbs,css"
-  },
-  "author": "Gonzalo",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.1",
-    "request": "^2.88.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gonzalob24/weather-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gonzalob24/weather-app/issues"
-  },
-  "homepage": "https://github.com/gonzalob24/weather-app#readme"
+	"name": "webserver",
+	"version": "1.0.0",
+	"description": "Webserver for Weather App",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/weatherApp.js",
+		"dev": "nodemon src/weatherApp.js -e js,hbs,css"
+	},
+	"author": "Gonzalo",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"hbs": "^4.1.1",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gonzalob24/weather-app.git"
+	},
+	"bugs": {
+		"url": "https://github.com/gonzalob24/weather-app/issues"
+	},
+	"homepage": "https://github.com/gonzalob24/weather-app#readme"
 }
