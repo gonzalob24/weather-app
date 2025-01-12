@@ -1,4 +1,4 @@
-import { Container } from '@mui/material';
+import { Box, Container, Grid2, Typography } from '@mui/material';
 
 const LandingPage = () => {
 	return (
@@ -24,7 +24,23 @@ const LandingPage = () => {
 					// opacity: 0.5,
 					// backgroundPosition: 'right 5rem bottom',
 				}}
-			></Container>
+			>
+				<Container
+					component="section"
+					id="forecast"
+					sx={{ display: 'flex' }}
+					justifyContent="center"
+				>
+					<Box justifyContent={'center'}>
+						<Typography
+							gutterBottom
+							variant="h2"
+						>
+							Weather
+						</Typography>
+					</Box>
+				</Container>
+			</Container>
 		</>
 	);
 };
