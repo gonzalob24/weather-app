@@ -1,16 +1,14 @@
 import { Box, Typography, Button } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { FaArrowCircleUp } from 'react-icons/fa';
+import * as React from 'react';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 
 const Footer = () => {
+	const [value, setValue] = React.useState(0);
 	return (
-		<Box
-			display={'flex'}
-			justifyContent="space-between"
-			px="10px"
-			component="footer"
-			sx={{ py: 3, bgcolor: (theme) => theme.palette.grey[900] }}
-		>
+		<BottomNavigation>
 			<Typography
 				alignSelf="center"
 				component="span"
@@ -19,18 +17,7 @@ const Footer = () => {
 			>
 				Gonzalo Betancourt ©{new Date().getFullYear()}
 			</Typography>
-			<Grid>
-				<Button
-					padding={2}
-					href="#landing"
-				>
-					<FaArrowCircleUp
-						size={30}
-						color={'#d500f9'}
-					/>
-				</Button>
-			</Grid>
-		</Box>
+		</BottomNavigation>
 	);
 };
 
